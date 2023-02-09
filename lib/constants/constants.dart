@@ -15,7 +15,7 @@ class Constants {
 
   static TextStyle getPokemonNameTextStyle() {
     return TextStyle(
-        color: Colors.white, fontWeight: FontWeight.bold, fontSize: _calculateFontSize(30));
+        color: Colors.white, fontWeight: FontWeight.bold, fontSize: _calculateFontSize(22));
   }
 
   static TextStyle getTypeChipTextStyle() {
