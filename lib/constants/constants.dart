@@ -10,25 +10,27 @@ class Constants {
 
   static TextStyle getTitleTextStyle() {
     return TextStyle(
-        color: Colors.white, fontWeight: FontWeight.bold, fontSize: _calculateFontSize(48));
+        color: Colors.white,
+        fontWeight: FontWeight.bold,
+        fontSize: _calculateFontSize(48));
   }
 
   static TextStyle getPokemonNameTextStyle() {
     return TextStyle(
-        color: Colors.white, fontWeight: FontWeight.bold, fontSize: _calculateFontSize(22));
+        color: Colors.white,
+        fontWeight: FontWeight.bold,
+        fontSize: _calculateFontSize(24));
   }
 
   static TextStyle getTypeChipTextStyle() {
-    return TextStyle(
-        color: Colors.white, fontSize: _calculateFontSize(20));
+    return TextStyle(color: Colors.white, fontSize: _calculateFontSize(20));
   }
 
   static _calculateFontSize(int size) {
-    if(ScreenUtil().orientation == Orientation.portrait) {
+    if (ScreenUtil().orientation == Orientation.portrait) {
       return size.sp;
     } else {
       return (size * 1.5).sp;
     }
   }
-
 }
