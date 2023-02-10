@@ -1,5 +1,4 @@
-import 'dart:ui';
-
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -27,10 +26,10 @@ class Constants {
   }
 
   static _calculateFontSize(int size) {
-    if (ScreenUtil().orientation == Orientation.portrait) {
+    if (ScreenUtil().orientation == Orientation.landscape) {
       return size.sp;
     } else {
-      return (size * 1.5).sp;
+      return (size * 1).sp;
     }
   }
 

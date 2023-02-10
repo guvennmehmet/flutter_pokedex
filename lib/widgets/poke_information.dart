@@ -29,7 +29,7 @@ class PokeInformation extends StatelessWidget {
             _buildInformationRow('Spawn Time', pokemon.spawnTime),
             _buildInformationRow('Weakness', pokemon.weaknesses),
             //_buildInformationRow('Pre Evolution', pokemon.prevEvolution),
-            _buildInformationRow('Next Evolution', pokemon.nextEvolution),
+            //_buildInformationRow('Next Evolution', pokemon.nextEvolution),
           ],
         ),
       ),

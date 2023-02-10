@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -35,7 +36,7 @@ class UIHelper {
     if (ScreenUtil().orientation == Orientation.portrait) {
       return EdgeInsets.all(12.h);
     } else {
-     return EdgeInsets.all(8.w);
+      return EdgeInsets.all(8.w);
     }
   }
 
@@ -54,5 +55,4 @@ class UIHelper {
       return 0.3.sh;
     }
   }
-
 }
